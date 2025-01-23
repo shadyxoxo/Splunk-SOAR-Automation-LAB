@@ -15,18 +15,18 @@ The Detection Lab project aimed to establish a controlled environment for simula
 - Network analysis tools (such as Wireshark) for capturing and examining network traffic.
 - Telemetry generation tools to create realistic network traffic and attack scenarios.
 
-## Steps
 # Playbook 1
-•	Inbound RDP Brute Force Attack.
+Inbound RDP Brute Force Attack.
 •	IP Reputation (Source) <Abuse IPDB> & <Virus Total>.
 •	If the score Of AbuseIPDB is >= 75% or Virus Total is >= 5 Vendor Flags it as malicious.
 •	Output will be “Big Bad Evil or Malicious” otherwise output “Further Investigation Required”
 
 # Playbook 2 Responsive Action from AD to Prompt Analyst or User to Disable Account.
-•	Unfamiliar Successful Sign Ins.
+Unfamiliar Successful Sign Ins.
 •	IP Reputation (Source) <Abuse IPDB> & <Virus Total>.
 •	If the score Of AbuseIPDB is >= 85% or Virus Total is >= 5 Vendor Flags it as malicious.
 •	Automatically Disable User Account Otherwise Prompt User If they want to disable the account.
+
 
 
 *Ref 1: Network Diagram*
