@@ -28,3 +28,6 @@ Unfamiliar Successful Sign Ins.
 - Automatically Disable User Account Otherwise Prompt User If they want to disable the account.
 
 *Ref 1: Network Diagram*
+#Playbook1 Diagram
+![Diagram Description](https://i.imgur.com/(https://imgur.com/JPwHLng))
+
