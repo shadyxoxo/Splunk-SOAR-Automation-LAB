@@ -48,9 +48,26 @@ If flagged as malicious, the playbook interacts with Active Directory (AD) to pr
 - Dashboards and Visualization: Splunk’s dashboards for real-time monitoring and analysis of security events.
 - Endpoint Security Tools: microsoft endpoint security, used to monitor and correlate host-level events.
 
-*Ref 1: Network Diagram*
-#Playbook 1 Diagram
+#Playbook 1 
+- Inbound RDP Brute Force Attack.
+- IP Reputation (Source) Abuse IPDB & Virus Total.
+- If the score Of AbuseIPDB is >= 75% or Virus Total is >= 5 Vendor Flags it as malicious.
+- Output will be “Big Bad Evil or Malicious” otherwise output “Further Investigation Required”.
 <div>
-  <img src="https://i.imgur.com/JPwHLng.png" />
+  <img src="https://i.imgur.com/JPwHLng.png" alt="Playbook 1 Diagram" width="600">
 </div>
+*Ref 1: Network Diagram (Inbound RDP Brute Force Attack)*
+
+
+
+
+#Playbook 2 Responsive Action from AD to Prompt Analyst or User to Disable Account.
+- Unfamiliar Successful Sign Ins.
+- IP Reputation (Source) Abuse IPDB & Virus Total.
+- If the score Of AbuseIPDB is >= 85% or Virus Total is >= 5 Vendor Flags it as malicious.
+- Automatically Disable User Account Otherwise Prompt User If they want to disable the account.
+<div>
+  <img src="https://imgur.com/HFs5fed.png" alt="Playbook 2 Diagram" width="600">
+</div>
+*Ref 2: Network Diagram (Unfamiliar Successful Sign Ins)*
 
