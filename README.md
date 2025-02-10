@@ -41,10 +41,10 @@ If flagged as malicious, the playbook interacts with Active Directory (AD) to pr
 - Wireshark: For capturing and analyzing network traffic in detail.
 - AbuseIPDB and VirusTotal: Integrated for IP reputation checks and malicious activity scoring.
 - Active Directory (AD): Used for managing user accounts, group policies, and executing responsive actions like account disabling.
-- Telemetry Generation Tools: Tools like Caldera, AttackIQ, or custom scripts to simulate attack scenarios and generate realistic logs.
+- Telemetry Generation Tools: Splunk and custom scripts to simulate attack scenarios and generate realistic logs.
 - Threat Intelligence Platforms: Utilized external threat feeds to enhance detection capabilities.
 - Scripting and Automation: Python and PowerShell for scripting playbook actions, log parsing, and custom detection scenarios.
-- Virtualized Environments: VMware or VirtualBox for creating isolated lab setups to replicate attacks safely.
+- Virtualized Environments: VMware for creating isolated lab setups to replicate attacks safely.
 - Dashboards and Visualization: Splunk’s dashboards for real-time monitoring and analysis of security events.
 - Endpoint Security Tools: microsoft endpoint security, used to monitor and correlate host-level events.
 
